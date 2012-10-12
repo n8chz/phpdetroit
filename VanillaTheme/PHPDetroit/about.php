@@ -8,3 +8,4 @@ $ThemeInfo['PHPDetroit'] = array(
    'AuthorEmail' => 'lincolnwebs@gmail.com',
    'AuthorUrl' => 'http://phpdetroit.com'
 );
+?>

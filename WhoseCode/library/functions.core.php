@@ -13,9 +13,9 @@
  * @return string Path requested.
  */
 function GetPath() {
-  $Path = '';
+  $Path = 'index';
   if (is_array($_GET)) {
-     if (isset($_GET['p'])) {
+     if (!empty($_GET['p'])) {
        $Path = $_GET['p'];
        unset($_GET['p']);
      } 

@@ -13,7 +13,7 @@
  * @return string Path requested.
  */
 function GetPath() {
-  $Path = 'index';
+  $Path = 'index'; // if no path, default to `index`
   if (is_array($_GET)) {
      if (!empty($_GET['p'])) {
        $Path = $_GET['p'];

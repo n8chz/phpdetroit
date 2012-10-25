@@ -1,0 +1,5 @@
+RewriteEngine on
+#Uncomment next line to use in a subfolder
+RewriteBase /WhoseCode
+RewriteCond $1 !^(index\.php|images|license\.txt)
+RewriteRule ^(.*)$ index.php\?p=$1 [L,QSA]
